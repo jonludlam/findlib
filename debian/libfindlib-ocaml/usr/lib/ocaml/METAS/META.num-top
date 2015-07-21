@@ -1,0 +1,7 @@
+# Specification for the "num-top" library add-on:
+requires = "num.core"
+version = "1.5.5"
+description = "Add-on for num inside toploops"
+directory = "+num-top"
+archive(byte,toploop) = "num_top.cma"
+

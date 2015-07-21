@@ -1,0 +1,10 @@
+2b12a5730823f61ba5baa7450b662989  usr/bin/ocamlfind
+97ac2288fbd059597c4add4a163c0960  usr/bin/safe_camlp4
+c7eb0cfae270ffaeb36889ee543b52ba  usr/share/doc/ocaml-findlib/QUICKSTART.gz
+caeec5fc22e6fca33deaca6b02745c39  usr/share/doc/ocaml-findlib/README.gz
+f351c892adb8e46bd38e3ea79909a985  usr/share/doc/ocaml-findlib/changelog.Debian.gz
+af08eaa916d3b06b08e584a6589696c0  usr/share/doc/ocaml-findlib/copyright
+4fccf9d333e96a1e84ede0ac4b851188  usr/share/man/man1/ocamlfind.1.gz
+ec98c26b7fe5a2230a9863d12b5e4711  usr/share/man/man5/META.5.gz
+6726e942337b69acc5b138565e758fa8  usr/share/man/man5/findlib.conf.5.gz
+7ae28b626a8ef7102ee2ccaa2ebd7823  usr/share/man/man5/site-lib.5.gz

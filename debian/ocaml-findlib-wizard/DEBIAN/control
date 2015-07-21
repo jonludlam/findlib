@@ -1,0 +1,17 @@
+Package: ocaml-findlib-wizard
+Source: findlib
+Version: 1.5.5-1
+Architecture: amd64
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Installed-Size: 453
+Depends: libfindlib-ocaml-n2r18, ocaml-base-4.01.0, ocaml-base-nox-4.01.0
+Breaks: ocaml-findlib (<< 1.2.4-3)
+Replaces: ocaml-findlib (<< 1.2.4-3)
+Section: ocaml
+Priority: optional
+Homepage: http://projects.camlcity.org/projects/findlib.html
+Description: Makefile and META wizard for OCaml libraries
+ This wizard helps you creating Makefiles and META files for simple
+ OCaml library projects. It generates a Makefile, and the Makefile
+ produces the META file. This generated build system is a starting
+ point and can be later fine-tuned.

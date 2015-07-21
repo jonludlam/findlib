@@ -1,0 +1,3 @@
+ocaml:Provides=libfindlib-ocaml-dev-n2r18
+ocaml:Depends=libfindlib-ocaml-n2r18, ocaml-nox-4.01.0
+misc:Depends=

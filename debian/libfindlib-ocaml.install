@@ -1,0 +1,5 @@
+etc/ocamlfind.conf
+/usr/lib/ocaml/METAS
+/usr/lib/ocaml/findlib/META
+/usr/lib/ocaml/findlib/findlib.cma
+/usr/lib/ocaml/bytes

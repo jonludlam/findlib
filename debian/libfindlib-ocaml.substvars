@@ -1,0 +1,4 @@
+shlibs:Depends=libc6 (>= 2.2.5)
+ocaml:Provides=libfindlib-ocaml-n2r18
+ocaml:Depends=ocaml-base-nox-4.01.0
+misc:Depends=

@@ -1,0 +1,10 @@
+--- a/src/bytes/META
++++ b/src/bytes/META
+@@ -2,6 +2,7 @@
+ version="[OCaml strictly before 4.02]"
+ description="backward-compatibility package for mutable strings"
+ requires=""
++directory="+bytes"
+ browse_interfaces = "String"
+ archive(byte)="bytes.cma"
+ archive(byte,plugin)="bytes.cma"

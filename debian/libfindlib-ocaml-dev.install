@@ -1,0 +1,8 @@
+/usr/lib/ocaml/topfind
+/usr/lib/ocaml/findlib/Makefile.config
+/usr/lib/ocaml/findlib/findlib_top.cma
+/usr/lib/ocaml/findlib/*.cmi
+/usr/lib/ocaml/findlib/*.mli
+/usr/lib/ocaml/num-top/*
+/usr/lib/ocaml/findlib/*.a
+/usr/lib/ocaml/findlib/*.cmxa

@@ -1,0 +1,23 @@
+Package: libfindlib-ocaml-dev
+Runtime: libfindlib-ocaml
+Version: 1.5.5-1
+
+File: debian/libfindlib-ocaml-dev/usr/lib/ocaml/num-top/num_top.cma
+Force custom: no
+Extra C object files:
+Extra C options:
+
+File: debian/libfindlib-ocaml-dev/usr/lib/ocaml/findlib/findlib_top.cma
+Force custom: no
+Extra C object files:
+Extra C options:
+
+File: debian/libfindlib-ocaml/usr/lib/ocaml/bytes/bytes.cma
+Force custom: no
+Extra C object files:
+Extra C options:
+
+File: debian/libfindlib-ocaml/usr/lib/ocaml/findlib/findlib.cma
+Force custom: no
+Extra C object files:
+Extra C options:

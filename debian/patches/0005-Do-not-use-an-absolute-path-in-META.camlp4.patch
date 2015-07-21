@@ -1,0 +1,19 @@
+From: Nicolas Dandrimont <nicolas.dandrimont@crans.org>
+Date: Mon, 27 Jun 2011 21:55:16 +0200
+Subject: Do not use an absolute path in META.camlp4
+
+---
+ configure |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/configure
++++ b/configure
+@@ -449,7 +449,7 @@
+     lcamlp4=''
+     echo "camlp4: disabled"
+ else if in_path camlp4; then
+-    camlp4_dir=`camlp4 -where | tr -d '\015'`
++    camlp4_dir=`camlp4 -where | tr -d '\015' | sed -s 's@/usr/lib/ocaml/@^@'`
+     if [ ${use_cygpath} -gt 0 ]; then
+ 	camlp4_dir=`echo x | env USE_CYGPATH=1 tools/patch x "$camlp4_dir"`
+         # This makes camlp4_dir a windows path
